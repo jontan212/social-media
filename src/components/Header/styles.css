@@ -1,0 +1,47 @@
+header {
+  padding-top: 54px;
+  color: rgba(255, 255, 255);
+  background-image: url("../../../public/img/bg-dark-1.png"),
+    url("../../../public/img/bg-primary-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header > :nth-child(1) {
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+}
+
+/* LOGO */
+header > :nth-child(1) .logo {
+  align-items: center;
+  column-gap: 15px;
+}
+
+/* NAV */
+header > :nth-child(1) nav {
+  column-gap: 50px;
+}
+
+header > :nth-child(1) nav a {
+  font-family: "DM Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+header > :nth-child(1) nav a:hover {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+/* Mendaftar Login */
+header > :nth-child(1) > :last-child {
+  font-family: "DM Sans", sans-serif;
+}
+
+header > :nth-child(1) > :last-child > :last-child {
+  margin-left: 30px;
+  padding: 10px 25px;
+  color: var(--dark-color);
+  background-color: rgb(255, 255, 255);
+}
