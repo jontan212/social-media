@@ -3,7 +3,7 @@ header {
   color: rgba(255, 255, 255);
   background-image: url("../../../public/img/bg-dark-1.png"),
     url("../../../public/img/bg-primary-1.png");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -42,6 +42,41 @@ header > :nth-child(1) > :last-child {
 header > :nth-child(1) > :last-child > :last-child {
   margin-left: 30px;
   padding: 10px 25px;
+  font-size: 1.125rem;
   color: var(--dark-color);
   background-color: rgb(255, 255, 255);
 }
+
+header > :nth-child(2) {
+  width: 775px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > :nth-child(2) > :nth-child(1) {
+  margin-top: 125px;
+  margin-bottom: 20px;
+  color: var(--first-color);
+}
+
+header > :nth-child(2) > :nth-child(3) {
+  max-width: 573px;
+  margin: 30px auto 60px auto;
+  font-size: 1.125rem;
+  line-height: 34px;
+}
+
+header > :nth-child(2) > :nth-child(4) {
+  margin-right: 55px;
+  padding: 25px 40px;
+  background-color: var(--first-color);
+}
+
+header > :nth-child(2) > :nth-child(5) {
+  display: inline-flex;
+  column-gap: 15px;
+}
+ header > img {
+   display: block;
+   margin: 132px auto 80px auto;
+ }

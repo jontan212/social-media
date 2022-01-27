@@ -1,6 +1,7 @@
 /* ********** Custom Properties ********** */
 :root {
   --first-color: rgba(252, 136, 29);
+  --bg-color: rgba(255, 246, 237, 1);
   --dark-color: rgba(13, 14, 37);
   --dark-05: rgba(13, 14, 37, 0.05);
   --font: "Source Sans Pro", sans-serif;
@@ -23,6 +24,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
+  background-color: var(--bg-color);
 }
 
 a {
@@ -91,6 +93,10 @@ img {
 
 .weight-500 {
   font-weight: 500;
+}
+
+.weight-400 {
+  font-weight: 400;
 }
 
 /* box-shadow: 0px 30px 60px rgba(13, 14, 37, 0.2); */

@@ -16,13 +16,17 @@ export default function Header() {
           <a href="#Alternatives">Alternatives</a>
         </nav>
         <div>
-          <a href="#Mendaftar" className="color-white">Mendaftar</a>
-          <a href="#Login" className="border-100">Login</a>
+          <a href="#Mendaftar" className="color-white weight-500">
+            Mendaftar
+          </a>
+          <a href="#Login" className="border-100 weight-700">
+            Login
+          </a>
         </div>
       </div>
-      <div>
-        <p>MANA SAYA TAU SAYA KAN PENCURRY</p>
-        <h1>
+      <div className="text-center">
+        <p className="letter-10 weight-600">MANA SAYA TAU SAYA KAN PENCURRY</p>
+        <h1 className="weight-400">
           Social Media Tool Yang Tidak Akan Memberikan Kamu Insight Apapun
         </h1>
         <p>
@@ -30,8 +34,10 @@ export default function Header() {
           memberikan kamu pelbagai insight, karena kami anti-mainstream maka
           kami akan melakukan sebaliknya.
         </p>
-        <a href="#Memulai">Memulai Sekarang</a>
-        <a href="#svg">
+        <a href="#Memulai" className="color-white weight-700 border-100">
+          Memulai Sekarang
+        </a>
+        <a href="#svg" className="color-white weight-700">
           <svg
             width="20"
             height="21"
@@ -57,6 +63,7 @@ export default function Header() {
           Pelajarin Dulu
         </a>
       </div>
+      <img src="./img/image1.png" alt="image1"></img>
     </header>
   );
 }
