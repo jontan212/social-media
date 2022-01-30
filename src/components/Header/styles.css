@@ -48,6 +48,7 @@ header > :nth-child(1) > :last-child > :last-child {
 }
 
 header > :nth-child(2) {
+  position: relative;
   width: 775px;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +77,41 @@ header > :nth-child(2) > :nth-child(5) {
   display: inline-flex;
   column-gap: 15px;
 }
- header > img {
-   display: block;
-   margin: 132px auto 80px auto;
- }
+
+header > :nth-child(2) .yt {
+  top: 76.19px;
+  left: -84.81px;
+  transform: rotate(25.62deg);
+}
+
+header > :nth-child(2) .luz-1 {
+  top: 210.31px;
+  left: -125.5px;
+  transform: rotate(22.15deg);
+}
+
+header > :nth-child(2) .ig {
+  top: 325px;
+  left: -54.5px;
+}
+
+header > :nth-child(2) .luz-2 {
+  top: 0px;
+  right: -107px;
+}
+
+header > :nth-child(2) .fb {
+  top: 140.68px;
+  right: -102px;
+  transform: rotate(15deg);
+}
+
+header > :nth-child(2) .tik-tok {
+  top: 305px;
+  right: -51px;
+}
+
+header > img {
+  display: block;
+  margin: 132px auto 80px auto;
+}

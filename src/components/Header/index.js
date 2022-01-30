@@ -62,6 +62,12 @@ export default function Header() {
           </svg>
           Pelajarin Dulu
         </a>
+        <img className="yt position-absolute" src="./img/yt.png" alt="logo youtube"></img>
+        <img className="luz-1 position-absolute" src="./img/luz-1.png" alt="luz azul"></img>
+        <img className="ig position-absolute" src="./img/ig.png" alt="instagram"></img>
+        <img className="luz-2 position-absolute" src="./img/luz-2.png" alt="luz naranja"></img>
+        <img className="fb position-absolute" src="./img/fb.png" alt="facebook"></img>
+        <img className="tik-tok position-absolute" src="./img/tik-tok.png" alt="tik tok"></img>
       </div>
       <img src="./img/image1.png" alt="image1"></img>
     </header>

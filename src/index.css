@@ -79,6 +79,10 @@ img {
   letter-spacing: 0.1em;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
 .text-center {
   text-align: center;
 }
