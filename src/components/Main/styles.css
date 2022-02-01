@@ -1,0 +1,52 @@
+main {
+  justify-content: space-between;
+}
+
+main p {
+  color: rgba(13, 14, 37, 0.6);
+}
+
+main > :first-child {
+  max-width: 474px;
+}
+
+main > :first-child > :first-child {
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+main > :first-child > :last-child {
+  align-items: center;
+  justify-content: space-between;
+  max-width: 254px;
+  padding: 21.5px 30px;
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--dark-color);
+}
+
+main > :last-child {
+  flex-wrap: wrap;
+  max-width: 575px;
+}
+
+main > :last-child > section {
+  width: 50%;
+}
+
+main > :last-child > section {
+  padding: 35px;
+  border-radius: 10px;
+}
+
+main > :last-child > section:hover {
+  color: rgb(255, 255, 255);
+  background-color: var(--dark-color);
+  box-shadow: 0px 40px 60px rgba(13, 14, 37, 0.1);
+}
+
+main > :last-child > section:hover > p {
+  color: rgb(255, 255, 255);
+}
+

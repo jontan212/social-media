@@ -71,12 +71,27 @@ img {
   color: rgb(255, 255, 255);
 }
 
+.dark-color {
+  color: var(--dark-color);
+}
+
+.first-color {
+  color: var(--first-color);
+}
+
 .flex {
   display: flex;
 }
 
 .letter-10 {
   letter-spacing: 0.1em;
+}
+
+.line {
+  display: inline-block;
+  width: 45px;
+  height: 2px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .position-absolute {
