@@ -94,6 +94,10 @@ img {
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+.line-height-30 {
+  line-height: 30px;
+}
+
 .position-absolute {
   position: absolute;
 }
@@ -117,5 +121,3 @@ img {
 .weight-400 {
   font-weight: 400;
 }
-
-/* box-shadow: 0px 30px 60px rgba(13, 14, 37, 0.2); */

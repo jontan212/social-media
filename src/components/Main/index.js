@@ -34,7 +34,10 @@ const Main = () => {
           <h2 className="weight-700 dark-color">
             Kenapa Kami Tidak Memberikan Insight Apapun?
           </h2>
-          <p style={{ "margin-top": "20px", "margin-bottom": "50px" }}>
+          <p
+            className="line-height-30"
+            style={{ "margin-top": "20px", "margin-bottom": "50px" }}
+          >
             Di sini kita akan klarifikasi mengapa kita tidak memberikan insight
             apapun di tool ini kepada kamu. Pada dasarnya hal ini kami lakukan
             semata-mata ingin menyelamatkan planet bumi.
@@ -246,11 +249,13 @@ const Main = () => {
       </main>
       <div className="main-2 container">
         <div className="text-center">
-          <p className="weight-600 letter-10"><span className="first-color">TERUS GIMANA?</span></p>
+          <p className="weight-600 letter-10">
+            <span className="first-color">TERUS GIMANA?</span>
+          </p>
           <h2 className="weight-700 dark-color">
             Terus Ngapain Dong Kalo Nggak Ada Insight Apapun?
           </h2>
-          <p>
+          <p className="line-height-30">
             Ya nggak tau, salah sendiri lu ngapain ke website ini. Tapi ada tiga
             kemungkinan kenapa lo bisa ada di website ini. Ketiga kemungkinan
             itu akan gwej jabarkan di bawah ini dengan ilustrasinya hehehe.
@@ -289,6 +294,92 @@ const Main = () => {
               desainnya. Kalo cuman dua jadinya nggak bagus hehe.
             </p>
           </section>
+        </div>
+      </div>
+      <div className="main-3">
+        <div className="container color-white">
+          <p className="weight-600 flex letter-10">
+            <span
+              className="line"
+              style={{ "background-color": "rgb(255, 255, 255)" }}
+            ></span>
+            ALTERNATIVES
+          </p>
+          <h2 className="weight-700">
+            Karena Tool Kita Ini Nggak Ada Apa-Apanya, Inilah Alternatifnya!
+          </h2>
+          <p className="line-height-30">
+            Seperti yang lo tau sendiri ya, tool ini tuh nggak ada apa-apanya.
+            Barangkali lo udah serius gitu butuh tool untuk sosial media, maka
+            dari itu kita kasih 2 alternatif yang bisa lo pake untuk sosial
+            media lo.
+          </p>
+        </div>
+        <div className="container flex">
+          <article className="flex">
+            <img src="./img/web-1.png" alt="web"></img>
+            <h3 className="weight-400">
+              Buffer.com – Buffer is the most intuitive, affordable, and
+              authentic way to reach more people on social media.
+            </h3>
+            <a className="flex weight-600" href="#learn1">
+              Learn More
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.5 12H19.5"
+                  stroke="#0D0E25"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.5 5L19.5 12L12.5 19"
+                  stroke="#0D0E25"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </article>
+          <article className="flex">
+            <img src="./img/web-2.png" alt="web"></img>
+            <h3 className="weight-400">
+              Sendible.com – Grow your audience, attract new customers, and
+              reach your social media goals with an all-in-one platform.
+            </h3>
+            <a className="flex weight-600" href="#learn1">
+              Learn More
+              <svg
+                width="25"
+                height="24"
+                viewBox="0 0 25 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.5 12H19.5"
+                  stroke="#0D0E25"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.5 5L19.5 12L12.5 19"
+                  stroke="#0D0E25"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </article>
         </div>
       </div>
     </>
